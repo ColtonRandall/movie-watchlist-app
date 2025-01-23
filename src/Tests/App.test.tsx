@@ -6,7 +6,7 @@ describe("App Component", () => {
   it("renders the App homepage", () => {
     render(<App />);
 
-    const paragraph = screen.getByText("Hello, Movie Watchlist!");
+    const paragraph = screen.getByText("Colton's Movie Watchlist 🎬");
     expect(paragraph).toBeInTheDocument();
   });
 });
